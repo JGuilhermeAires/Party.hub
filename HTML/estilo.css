@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial;
+    text-decoration: none;
+}
+header{
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 100%;
+    height: 100%;
+}
+.class{
+    width: 220px;
+    height: 110px;
+    margin-left: 2em;
+}
+.menu-container{
+    font-size: 40px;
+    width: 100px;
+    display: flex;
+    gap: 3em;
+    position: absolute;
+    left: 12em;
+}
+.item {
+    transition: transform;
+    color: black;
+    font-size: 33px;
+    text-align: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.item:hover{
+    transform: scale(1.5);
+}
+.container{
+width: 1200px;
+height: auto;
+margin: auto;
+color: black;
+position: relative;
+}
+.container .parag{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.container h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.container .clique{
+    width: 160px;
+    height: 40px;
+    background:#009ce0;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.container .clique a{
+    text-decoration: none;
+    color: white;
+    transition: .3s ease;
+}
+.clique:hover{
+    background-color: black;
+}
+.container span{
+    color:#009ce0;
+    font-size: 60px;
+}
+body{
+    background: url(IMG.jpg) no-repeat;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
